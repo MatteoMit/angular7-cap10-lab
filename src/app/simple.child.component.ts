@@ -2,7 +2,15 @@ import { Component, OnInit, Input } from "@angular/core";
 @Component({
   selector: "simple-child-component",
   template: `
-    <p>Messaggio ricevuto dal padre: {{ message }}</p>
+    <p>Messaggio ricevuto dal componente Padre: {{ message }}</p>
+    <p>Per verifaree l'esecuzione, usare la console</p>
+    <p>di FireFox [CTRL + SHIFT + K]</p>
+    <p>o Chrome [CTRL + SHIFT + J ]</p>
+    <p>al seguente link:</p>
+    <a title="StackBlitz Angular7 - CAP 10"
+      href="https://angular7-cap10-lab.stackblitz.io" >
+      "StackBlitz Angular7 - CAP 10
+    </a>
   `,
   styles: []
 })

@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
 `
 })
 export class ParentComponent implements OnInit {
-  greeting = "hello";
+  greeting = "'HELLO'";
   constructor() {
     console.log("+ Parent component: constructor");
   }

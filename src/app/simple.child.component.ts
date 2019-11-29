@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, OnDestroy } from '@angular/core';@Component({
   selector: "simple-child-component",
   template: `
-    <p>Messaggio ricevuto dal componente Padre: {{ message }}</p>
+    <p>Messaggio ricevuto dal componente Padre: {{ greeting }}</p>
     <p>---------------------------------------------------</p>
     <p>Per verifaree l'esecuzione, usare la console</p>
     <p>di FireFox [CTRL + SHIFT + K]</p>

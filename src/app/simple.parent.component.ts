@@ -14,7 +14,7 @@ import { ChildComponent } from './simple.child.component';
   `
 })
 export class ParentComponent implements OnInit {
-  greeting = "hello";
+  greeting = "'HELLO''";
   hidden = false;
   constructor() {
     console.log("+ Parent component: constructor");

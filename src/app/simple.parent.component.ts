@@ -3,7 +3,7 @@ import { Component, OnInit } from "@angular/core";
 @Component({
   selector: "simple-parent-component",
   template: `
-<simple-child-component [message]="greeting"></simple-childcomponent>
+    <simple-child-component [message]="greeting"></simple-child-component>
 `
 })
 export class ParentComponent implements OnInit {
